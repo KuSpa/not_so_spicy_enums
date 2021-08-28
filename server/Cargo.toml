@@ -6,8 +6,8 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy_spicy_networking = { git = "https://github.com/CabbitStudios/bevy_spicy_networking", branch="master"}
-bevy = { version = "0.5", features = ["dynamic"] }
+bevy_spicy_networking = { git = "https://github.com/KuSpa/bevy_spicy_networking", branch="json"}
+bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", features = ["dynamic"] }
 #bevy_spicy_networking = "0.6"
 typetag = "0.1.7"
 client = {path="../client"}

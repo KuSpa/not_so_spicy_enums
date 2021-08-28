@@ -9,7 +9,7 @@ use bevy_spicy_networking::{
 
 #[allow(dead_code)]
 fn main() {
-    let mut app = App::build();
+    let mut app = App::new();
     app.add_plugins(MinimalPlugins)
         .add_startup_system(setup_networking.system())
         .add_plugin(ClientPlugin)

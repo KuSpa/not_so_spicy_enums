@@ -5,7 +5,7 @@ use bevy_spicy_networking::{NetworkServer, ServerPlugin};
 use client::MyEnum;
 
 fn main() {
-    App::build()
+    App::new()
         .add_plugins(DefaultPlugins)
         .add_startup_system(setup_networking.system())
         .add_plugin(ServerPlugin)
