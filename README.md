@@ -1,0 +1,1 @@
+This repo showcases a MVP for [this bug](https://github.com/CabbitStudios/bevy_spicy_networking/issues/12) and a (probably bad) fix ^^.
